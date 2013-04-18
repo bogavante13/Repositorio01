@@ -1,0 +1,10 @@
+#Wed Dec 28 14:40:58 PST 2011
+repositories/http\:__download.aptana.com_studio3-rcp_plugin_update/uri=http\://download.aptana.com/studio3-rcp/plugin/update/
+repositories/http\:__download.eclipse.org_releases_helios/nickname=Eclipse Helios Update Site
+repositories/http\:__download.eclipse.org_releases_helios/uri=http\://download.eclipse.org/releases/helios
+repositories/http\:__download.eclipse.org_releases_helios/count=1
+repositories/http\:__download.aptana.com_studio3-rcp_plugin_update/count=1
+repositories/http\:__download.eclipse.org_releases_helios/enabled=false
+eclipse.preferences.version=1
+repositories/http\:__download.aptana.com_studio3-rcp_plugin_update/nickname=Aptana Studio 3 Release Updates
+repositories/http\:__download.aptana.com_studio3-rcp_plugin_update/enabled=true

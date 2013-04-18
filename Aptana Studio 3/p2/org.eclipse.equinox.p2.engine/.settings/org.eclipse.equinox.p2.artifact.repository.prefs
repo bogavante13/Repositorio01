@@ -1,0 +1,18 @@
+#Wed Dec 28 14:38:08 PST 2011
+repositories/file\:_var_hudson_workspace_studio3-standalone-master_builders_com.aptana.standalone.build_result_tmp_studio3_p2_org.eclipse.equinox.p2.core_cache/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_var_update-site_update_master_studio3-rcp/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_var_update-site_update_master_studio3-rcp/version=1.0.0
+repositories/file\:_var_update-site_update_master_studio3-rcp/enabled=true
+repositories/file\:_var_hudson_workspace_studio3-standalone-master_builders_com.aptana.standalone.build_result_tmp_studio3_p2_org.eclipse.equinox.p2.core_cache/name=download cache
+repositories/file\:_var_update-site_update_master_studio3-rcp/name=Aptana Studio 3 RCP Artifacts
+repositories/file\:_var_hudson_workspace_studio3-standalone-master_builders_com.aptana.standalone.build_result_tmp_studio3_p2_org.eclipse.equinox.p2.core_cache/uri=file\:/var/hudson/workspace/studio3-standalone-master/builders/com.aptana.standalone.build/result/tmp/studio3/p2/org.eclipse.equinox.p2.core/cache/
+repositories/file\:_var_update-site_update_master_studio3-rcp/provider=
+repositories/file\:_var_hudson_workspace_studio3-standalone-master_builders_com.aptana.standalone.build_result_tmp_studio3_p2_org.eclipse.equinox.p2.core_cache/description=
+eclipse.preferences.version=1
+repositories/file\:_var_update-site_update_master_studio3-rcp/uri=file\:/var/update-site/update/master/studio3-rcp
+repositories/file\:_var_hudson_workspace_studio3-standalone-master_builders_com.aptana.standalone.build_result_tmp_studio3_p2_org.eclipse.equinox.p2.core_cache/isSystem=true
+repositories/file\:_var_update-site_update_master_studio3-rcp/isSystem=false
+repositories/file\:_var_hudson_workspace_studio3-standalone-master_builders_com.aptana.standalone.build_result_tmp_studio3_p2_org.eclipse.equinox.p2.core_cache/version=1
+repositories/file\:_var_update-site_update_master_studio3-rcp/description=
+repositories/file\:_var_update-site_update_master_studio3-rcp/suffix=artifacts.xml
+repositories/file\:_var_hudson_workspace_studio3-standalone-master_builders_com.aptana.standalone.build_result_tmp_studio3_p2_org.eclipse.equinox.p2.core_cache/provider=

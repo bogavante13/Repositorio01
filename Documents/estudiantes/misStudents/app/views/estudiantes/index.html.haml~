@@ -1,0 +1,20 @@
+%h2 Listado de estudiantes
+%table#estudiantes
+	%thead
+		%tr
+			%th Nombre
+			%th Apellido
+			%th Cedula
+			%th Fecha Nacimiento
+			%th Mas informacion
+	%tbody
+		- @estudiantes.each do |estudiante|
+			%tr
+				%td= estudiante.nombre
+				%td= estudiante.apellido
+				%td= estudiante.cedula
+				%td= estudiante.fecha_nacimiento
+				%td= link_to "Mas sobre #{estudiante.nombre}", estudiante_path(estudiante)
+= link_to 'Agregar nueva_estudiante', new_estudiante_path
+
+	

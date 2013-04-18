@@ -1,0 +1,5 @@
+2012-11-09 15:20:48,743 - twisted - ERROR - Unhandled error in Deferred:
+2012-11-09 15:20:48,744 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+Failure: ubuntuone.platform.linux.dbus_interface.NoAccessToken: CredentialsNotFound
+

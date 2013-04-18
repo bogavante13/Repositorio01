@@ -1,0 +1,12 @@
+varias_peliculas =
+[{:titulo=>'Aladin', :calificacion=>'G', :fecha_estreno='10-nov-1992'},
+{:titulo=>'Jinetes', :calificacion=>'G', :fecha_estreno='10-oct-1998'},
+{:titulo=>'Todos', :calificacion=>'PG-15', :fecha_estreno='1-feb-1992'},
+{:titulo=>'Nadie', :calificacion=>'PG-13', :fecha_estreno='14-jun-2005'}]
+
+Pelicula.send(:attr_accessible, :titulo, :calificacion, :fecha_estreno)
+varias_peliculas.each do | pelicula |
+Pelicula.create!(pelicula)
+
+end
+

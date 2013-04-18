@@ -1,0 +1,81 @@
+2012-11-14 16:20:32,228 - ubuntuone.SyncDaemon.Main - INFO - Starting Ubuntu One client version 2.0.1
+2012-11-14 16:20:32,229 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saasbook/Ubuntu One' as root dir
+2012-11-14 16:20:32,229 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saasbook/.local/share/ubuntuone/syncdaemon' as data dir
+2012-11-14 16:20:32,229 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saasbook/.local/share/ubuntuone/shares' as shares root dir
+2012-11-14 16:20:32,290 - ubuntuone.SyncDaemon.tritcask - INFO - Initializing Tritcask on: /home/saasbook/.local/share/ubuntuone/syncdaemon/tritcask
+2012-11-14 16:20:32,336 - ubuntuone.SyncDaemon.tritcask - INFO - found 1 data files, 0 dead and 0 broken files
+2012-11-14 16:20:32,359 - ubuntuone.SyncDaemon.tritcask - INFO - keydir ready! (keys: 2)
+2012-11-14 16:20:32,391 - ubuntuone.SyncDaemon.fsm - INFO - loading updated metadata
+2012-11-14 16:20:32,392 - ubuntuone.SyncDaemon.fsm - INFO - initialized: idx_path: 1, idx_node_id: 0, shares: 1
+2012-11-14 16:20:32,429 - ubuntuone.SyncDaemon.filesystem_notifications.GeneralProcessor - INFO - Ignoring files: ['\\A#.*\\Z', '\\A.*~\\Z', '\\A.*\\.py[oc]\\Z', '\\A.*\\.sw[nopx]\\Z', '\\A.*\\.swpx\\Z', '\\A\\..*\\.tmp\\Z', '\\A\\.~lock\\..*#\\Z']
+2012-11-14 16:20:32,475 - ubuntuone.SyncDaemon.HQ - INFO - HashQueue: _hasher started
+2012-11-14 16:20:39,586 - ubuntuone.SyncDaemon.DBus - INFO - DBusInterface initialized.
+2012-11-14 16:20:39,587 - ubuntuone.SyncDaemon.DBus - INFO - connect was requested. Are we autoconnecting? True.
+2012-11-14 16:20:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'INIT'  (queues IDLE  connection 'Not User Not Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:20:40,068 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan starting...
+2012-11-14 16:20:40,069 - ubuntuone.SyncDaemon.local_rescan - INFO - start scan all volumes
+2012-11-14 16:20:40,083 - ubuntuone.SyncDaemon.local_rescan - INFO - processing trash
+2012-11-14 16:20:40,083 - ubuntuone.SyncDaemon.local_rescan - INFO - processing move limbo
+2012-11-14 16:20:40,085 - ubuntuone.SyncDaemon.local_rescan - INFO - Ignoring path as it's a symlink: '/home/saasbook/Ubuntu One/Shared With Me'
+2012-11-14 16:20:40,085 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan finished!
+2012-11-14 16:20:40,091 - ubuntuone.SyncDaemon.Main - INFO - hash queue empty. We are ready!
+2012-11-14 16:20:45,927 - ubuntuone.SyncDaemon.DBus - WARNING - 'CredentialsNotFound': () {'member': 'CredentialsNotFound'}
+2012-11-14 16:20:45,928 - twisted - ERROR - Unhandled error in Deferred:
+2012-11-14 16:20:45,929 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+Failure: ubuntuone.platform.linux.dbus_interface.NoAccessToken: CredentialsNotFound
+
+2012-11-14 16:22:40,074 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:24:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:26:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:28:40,101 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:30:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:32:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:34:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:36:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:38:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:40:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:42:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:44:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:46:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:48:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:50:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:52:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:54:40,085 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:56:40,094 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 16:58:40,095 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:00:40,070 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:02:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:04:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:06:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:08:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:10:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:12:40,070 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:14:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:16:40,070 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:18:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:20:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:22:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:24:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:26:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:28:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:30:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:32:40,070 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:34:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:36:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:38:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:40:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:42:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:44:40,077 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:46:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:48:40,075 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:50:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:52:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:54:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:56:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 17:58:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 18:00:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 18:02:40,068 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 18:04:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 18:06:40,070 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-11-14 18:08:40,069 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----

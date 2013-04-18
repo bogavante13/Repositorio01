@@ -1,0 +1,25 @@
+
+%h2 Detalles sobre #{@estudiante.nombre}
+%ul#detalles
+	%li
+		Apellido:
+		= @estudiante.apellido
+	%li
+		Nacido el:
+		= @estudiante.fecha_nacimiento.strftime("%B %d, %Y")
+%h3 Cedula:
+%p#cedula= @estudiante.cedula
+
+= link_to 'Regresar a la lista de estudiantes',
+estudiantes_path
+= link_to 'Editar',
+edit_estudiante_path(@estudiante)
+= link_to 'Regresar',
+estudiantes_path
+%br
+= button_to 'Eliminar',
+estudiante_path(@estudiante), 
+:method => :delete, 
+:confirm => 'Estas Seguroooooooo'
+
+

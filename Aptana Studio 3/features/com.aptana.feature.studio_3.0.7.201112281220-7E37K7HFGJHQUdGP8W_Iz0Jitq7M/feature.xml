@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.aptana.feature.studio"
+      label="%featureName"
+      version="3.0.7.201112281220-7E37K7HFGJHQUdGP8W_Iz0Jitq7M"
+      provider-name="%providerName"
+      plugin="com.aptana.branding">
+
+   <description url="http://www.aptana.com">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.aptana.com/studio3/plugin/update/"/>
+   </url>
+
+   <includes
+         id="com.aptana.feature"
+         version="3.0.7.1325099706-BJ7F8LBTDuY5meBG31DC34EVnIM5"/>
+
+   <includes
+         id="org.radrails.rails"
+         version="3.0.3.201112281159-7e-7Q7f4kZPAAA6I"
+         name="RadRails"/>
+
+   <includes
+         id="com.aptana.php.feature"
+         version="3.0.3.1322528867-7D-27CEBBKBTTNQ"/>
+
+   <includes
+         id="org.python.pydev.feature"
+         version="2.2.4.2011121401"/>
+
+   <includes
+         id="org.python.pydev.django_templates.feature"
+         version="2.2.4.2011121401"/>
+
+</feature>

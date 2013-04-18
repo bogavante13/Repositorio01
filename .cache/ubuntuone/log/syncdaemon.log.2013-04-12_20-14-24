@@ -1,0 +1,28 @@
+2013-04-12 20:12:22,844 - ubuntuone.SyncDaemon.Main - INFO - Starting Ubuntu One client version 2.0.1
+2013-04-12 20:12:22,844 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saasbook/Ubuntu One' as root dir
+2013-04-12 20:12:22,844 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saasbook/.local/share/ubuntuone/syncdaemon' as data dir
+2013-04-12 20:12:22,845 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saasbook/.local/share/ubuntuone/shares' as shares root dir
+2013-04-12 20:12:22,845 - ubuntuone.SyncDaemon.tritcask - INFO - Initializing Tritcask on: /home/saasbook/.local/share/ubuntuone/syncdaemon/tritcask
+2013-04-12 20:12:22,924 - ubuntuone.SyncDaemon.tritcask - INFO - found 1 data files, 0 dead and 0 broken files
+2013-04-12 20:12:22,938 - ubuntuone.SyncDaemon.tritcask - INFO - keydir ready! (keys: 2)
+2013-04-12 20:12:22,957 - ubuntuone.SyncDaemon.fsm - INFO - loading updated metadata
+2013-04-12 20:12:22,957 - ubuntuone.SyncDaemon.fsm - INFO - initialized: idx_path: 1, idx_node_id: 0, shares: 1
+2013-04-12 20:12:22,972 - ubuntuone.SyncDaemon.filesystem_notifications.GeneralProcessor - INFO - Ignoring files: ['\\A#.*\\Z', '\\A.*~\\Z', '\\A.*\\.py[oc]\\Z', '\\A.*\\.sw[nopx]\\Z', '\\A.*\\.swpx\\Z', '\\A\\..*\\.tmp\\Z', '\\A\\.~lock\\..*#\\Z']
+2013-04-12 20:12:22,977 - ubuntuone.SyncDaemon.HQ - INFO - HashQueue: _hasher started
+2013-04-12 20:12:23,915 - ubuntuone.SyncDaemon.DBus - INFO - DBusInterface initialized.
+2013-04-12 20:12:23,916 - ubuntuone.SyncDaemon.DBus - INFO - connect was requested. Are we autoconnecting? True.
+2013-04-12 20:12:24,144 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'INIT'  (queues IDLE  connection 'Not User Not Network')>; queue: 0; hash: 0) ----
+2013-04-12 20:12:24,145 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan starting...
+2013-04-12 20:12:24,145 - ubuntuone.SyncDaemon.local_rescan - INFO - start scan all volumes
+2013-04-12 20:12:24,154 - ubuntuone.SyncDaemon.local_rescan - INFO - processing trash
+2013-04-12 20:12:24,154 - ubuntuone.SyncDaemon.local_rescan - INFO - processing move limbo
+2013-04-12 20:12:24,164 - ubuntuone.SyncDaemon.local_rescan - INFO - Ignoring path as it's a symlink: '/home/saasbook/Ubuntu One/Shared With Me'
+2013-04-12 20:12:24,164 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan finished!
+2013-04-12 20:12:24,164 - ubuntuone.SyncDaemon.Main - INFO - hash queue empty. We are ready!
+2013-04-12 20:12:26,372 - ubuntuone.SyncDaemon.DBus - WARNING - 'CredentialsNotFound': () {'member': 'CredentialsNotFound'}
+2013-04-12 20:12:26,373 - twisted - ERROR - Unhandled error in Deferred:
+2013-04-12 20:12:26,374 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+Failure: ubuntuone.platform.linux.dbus_interface.NoAccessToken: CredentialsNotFound
+
+2013-04-12 20:14:24,147 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----

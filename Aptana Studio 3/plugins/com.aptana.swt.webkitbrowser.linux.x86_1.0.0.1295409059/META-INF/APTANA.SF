@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: JlGL+iW6QAx3hMc+S7kZNiX8d1o=
+Created-By: 1.6.0_20 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: WWcP66tKLuRzcl+jG8Yarl/SQ64=
+
+Name: os/linux/x86/libffmpegsumo.so
+SHA1-Digest: Pu2/ervul3PG9YbJg/UmNUoH0H8=
+
+Name: os/linux/x86/libosmesa.so
+SHA1-Digest: S9om6bd9arke4585ZXaFbSWXXT0=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA1-Digest: QG0Eg+FOUje0ohexyjFKL2DJPLQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SwPvGXzoqhbu6llulpm8WpBxiUo=
+
+Name: license.html
+SHA1-Digest: AyEgG8m33VDWBh7f+fNkTFIzYMo=
+
+Name: com/aptana/swt/webkitbrowser/PlatformOSHelper.class
+SHA1-Digest: qq3Hvf2kb7EOKhEhzrKJYSDsCU0=
+
+Name: os/linux/x86/libcefjni.so
+SHA1-Digest: b0xk5pVxvAsFy93maWOf59wW/UA=
+
+Name: os/linux/x86/cefjniresources.pak
+SHA1-Digest: hyuU1IdsOQ17tFc+ZzDuWEXi22M=
+

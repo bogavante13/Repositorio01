@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="check_new_release_ignore" mtime="1337078284" type="string">
+		<stringvalue>precise</stringvalue>
+	</entry>
+	<entry name="first_run" mtime="1326933431" type="bool" value="false"/>
+	<entry name="show_details" mtime="1366251833" type="bool" value="false"/>
+	<entry name="launch_time" mtime="1366251833" type="int" value="1366251833"/>
+</gconf>

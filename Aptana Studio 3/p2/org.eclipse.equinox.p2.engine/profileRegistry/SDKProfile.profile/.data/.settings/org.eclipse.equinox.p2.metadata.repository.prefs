@@ -1,0 +1,14 @@
+#Wed Dec 28 14:41:10 PST 2011
+repositories/http\:__download.aptana.com_studio3_plugin_update/enabled=false
+repositories/http\:__download.aptana.com_studio3-rcp_plugin_update/uri=http\://download.aptana.com/studio3-rcp/plugin/update/
+repositories/http\:__download.eclipse.org_releases_galileo/enabled=false
+repositories/http\:__download.aptana.com_studio3_plugin_update/isSystem=false
+repositories/http\:__download.aptana.com_studio3-rcp_plugin_update/isSystem=false
+repositories/http\:__download.eclipse.org_releases_galileo/uri=http\://download.eclipse.org/releases/galileo
+repositories/http\:__download.aptana.com_studio3_plugin_update/uri=http\://download.aptana.com/studio3/plugin/update/
+eclipse.preferences.version=1
+repositories/http\:__download.eclipse.org_eclipse_updates_3.5/isSystem=false
+repositories/http\:__download.eclipse.org_eclipse_updates_3.5/uri=http\://download.eclipse.org/eclipse/updates/3.5
+repositories/http\:__download.eclipse.org_releases_galileo/isSystem=false
+repositories/http\:__download.eclipse.org_eclipse_updates_3.5/enabled=false
+repositories/http\:__download.aptana.com_studio3-rcp_plugin_update/enabled=false

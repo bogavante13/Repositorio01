@@ -1,0 +1,12 @@
+%h2 Editar Película!
+=form_tag pelicula_path(@pelicula), :method =>:put do
+	= label :pelicula, :titulo, 'Titulo'
+	= text_field :pelicula, :titulo
+	= label :pelicula, :calificacion, 'Calificacion'
+	= select :pelicula, :calificacion, ['G', 'PG','PG-13', 'R', 'NC-17']
+	= label :pelicula, :fecha_estreno, 'Estrenada en'
+	= date_select :pelicula, :fecha_estreno
+	%br
+	%br
+	= submit_tag 'Guardar'
+

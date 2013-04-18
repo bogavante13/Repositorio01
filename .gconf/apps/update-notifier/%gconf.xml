@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="no_show_notifications" mtime="1326966111" type="bool" value="true"/>
+	<entry name="auto_launch" mtime="1326966110" type="bool" value="false"/>
+	<entry name="release_check_time" mtime="1365822767" type="int" value="0"/>
+</gconf>

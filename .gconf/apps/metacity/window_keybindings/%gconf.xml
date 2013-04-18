@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="close" mtime="1326934020" type="string">
+		<stringvalue>&lt;Control&gt;q</stringvalue>
+	</entry>
+</gconf>

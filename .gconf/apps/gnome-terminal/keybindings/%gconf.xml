@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="close_window" mtime="1326934069" type="string">
+		<stringvalue>&lt;Control&gt;q</stringvalue>
+	</entry>
+	<entry name="close_tab" mtime="1326934065" type="string">
+		<stringvalue>&lt;Control&gt;w</stringvalue>
+	</entry>
+	<entry name="new_window" mtime="1326934060" type="string">
+		<stringvalue>&lt;Control&gt;n</stringvalue>
+	</entry>
+	<entry name="new_tab" mtime="1326934058" type="string">
+		<stringvalue>&lt;Control&gt;t</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,32 @@
+1522 [2012-10-31 18:05:53,982] - DEBUG - singleton - Checking for another running instance...
+1522 [2012-10-31 18:05:54,130] - INFO - zeitgeist.sql - Using database: /home/saasbook/.local/share/zeitgeist/activity.sqlite
+1522 [2012-10-31 18:05:54,174] - DEBUG - zeitgeist.sql - Core schema is good. DB loaded in 44.3511009216ms
+1522 [2012-10-31 18:05:54,177] - DEBUG - zeitgeist.extension - Searching for system extensions in: /usr/share/zeitgeist/_zeitgeist/engine/extensions
+1522 [2012-10-31 18:05:54,177] - DEBUG - zeitgeist.extension - Searching for user extensions in: /home/saasbook/.local/share/zeitgeist/extensions
+1522 [2012-10-31 18:05:54,456] - DEBUG - zeitgeist.extension - No extra extensions
+1522 [2012-10-31 18:05:54,456] - DEBUG - zeitgeist.extension - Found extensions: [<class '_zeitgeist.engine.extensions.datasource_registry.DataSourceRegistry'>, <class '_zeitgeist.engine.extensions.storagemonitor.StorageMonitor'>, <class '_zeitgeist.engine.extensions.fts.SearchEngineExtension'>, <class '_zeitgeist.engine.extensions.blacklist.Blacklist'>]
+1522 [2012-10-31 18:05:54,456] - DEBUG - zeitgeist.extension - Loading extension 'DataSourceRegistry'
+1522 [2012-10-31 18:05:54,470] - DEBUG - zeitgeist.datasource_registry - Loaded data-source data from /home/saasbook/.local/share/zeitgeist/datasources.pickle
+1522 [2012-10-31 18:05:54,472] - DEBUG - zeitgeist.extension - Loading extension 'StorageMonitor'
+1522 [2012-10-31 18:05:54,580] - DEBUG - zeitgeist.storagemonitor - Creating NetworkManager network monitor
+1522 [2012-10-31 18:05:54,588] - DEBUG - zeitgeist.storagemonitor - NetworkManager network state: 70
+1522 [2012-10-31 18:05:54,588] - DEBUG - zeitgeist.storagemonitor - Setting storage medium net 'Internet' as available
+1522 [2012-10-31 18:05:54,736] - DEBUG - zeitgeist.extension - Loading extension 'SearchEngineExtension'
+1522 [2012-10-31 18:05:54,736] - DEBUG - zeitgeist.fts - Opening full text index: /home/saasbook/.local/share/zeitgeist/fts.index
+1522 [2012-10-31 18:05:54,889] - DEBUG - zeitgeist.extension - Loading extension 'Blacklist'
+1522 [2012-10-31 18:05:54,892] - DEBUG - zeitgeist.blacklist - No existing blacklist config found
+1522 [2012-10-31 18:05:54,902] - INFO - root - Trying to start the datahub
+1522 [2012-10-31 18:05:54,943] - DEBUG - root - Running datahub (/usr/bin/zeitgeist-datahub) with PID=1525
+1522 [2012-10-31 18:05:54,948] - INFO - root - Starting Zeitgeist service...
+1522 [2012-10-31 18:06:00,328] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+1522 [2012-10-31 18:06:00,563] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.270962s
+1522 [2012-10-31 18:06:00,907] - DEBUG - zeitgeist.fts - Committing FTS index
+1522 [2012-10-31 18:13:05,005] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+1522 [2012-10-31 18:13:05,029] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.053317s
+1522 [2012-10-31 18:13:05,529] - DEBUG - zeitgeist.fts - Committing FTS index
+1522 [2012-10-31 18:42:18,075] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+1522 [2012-10-31 18:42:18,177] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.157954s
+1522 [2012-10-31 18:42:18,712] - DEBUG - zeitgeist.fts - Committing FTS index
+1522 [2012-10-31 19:08:22,714] - DEBUG - zeitgeist.fts - Indexing 'application://banshee.desktop'
+1522 [2012-10-31 19:08:22,839] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.214217s
+1522 [2012-10-31 19:08:23,307] - DEBUG - zeitgeist.fts - Committing FTS index

@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Vendor
+Fragment-Host: com.aptana.swt.webkitbrowser;bundle-version="[1.0.0,1.0
+ .99)"
+Bundle-Version: 1.0.0.1295409059
+Eclipse-PlatformFilter: (& (osgi.os=linux) (osgi.arch=x86))
+Bundle-Name: %Bundle-Name
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.aptana.swt.webkitbrowser.linux.x86;singleton:
+ =true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+Name: os/linux/x86/libffmpegsumo.so
+SHA1-Digest: sG2O52mEU/i3Ro7zuUlMExwlxM0=
+
+Name: os/linux/x86/libosmesa.so
+SHA1-Digest: hiS/ZuiUpRgrnahcY5ERHpDpY9E=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA1-Digest: Zt+DAtpsVz6qwVnqOveMtLolnDU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: os/linux/x86/libcefjni.so
+SHA1-Digest: BahpYd41MepP0Z+M2cGVnNKYAxs=
+
+Name: com/aptana/swt/webkitbrowser/PlatformOSHelper.class
+SHA1-Digest: rowXZ8HrYh6Y5/5r/NRfyKk2ORs=
+
+Name: license.html
+SHA1-Digest: seV+ORcOdnA3+QVSsjmggkQWnzk=
+
+Name: os/linux/x86/cefjniresources.pak
+SHA1-Digest: h6T1aIYyR1LAcONKUBEzyongUUw=
+

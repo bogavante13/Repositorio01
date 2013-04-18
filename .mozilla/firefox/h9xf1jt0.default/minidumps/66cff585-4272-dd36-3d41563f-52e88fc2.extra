@@ -1,0 +1,15 @@
+Theme=classic/1.0
+StartupTime=1337078301
+ProductName=Firefox
+ServerURL=https://crash-reports.mozilla.com/submit?id=ec8030f7-c20a-464f-9b0e-13a3a9e97384&version=7.0.1&buildid=20111008085056
+Add-ons=globalmenu@ubuntu.com:2.0.1,ubufox@ubuntu.com:1.0,{c45c406e-ab73-11d8-be73-000a95be3b12}:1.1.9,firebug@software.joehewitt.com:1.9.1,{972ce4c6-7e08-4474-a285-3208198ce6fd}:7.0.1
+FramePoisonBase=00000000f0dea000
+URL=https://github.com/madx/gedit-extensions/tree/master/mime-packages
+EMCheckCompatibility=true
+BuildID=20111008085056
+Vendor=Mozilla
+Version=7.0.1
+InstallTime=1326963829
+Notes=GLXtest process failed (exited with status 1): X error occurred in GLX probe, error_code=9, request_code=55, minor_code=0\n\n
+FramePoisonSize=4096
+CrashTime=1337109018

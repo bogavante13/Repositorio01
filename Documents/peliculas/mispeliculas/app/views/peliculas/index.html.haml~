@@ -1,0 +1,20 @@
+%h2 Listado de peliculas
+%table#peliculas
+	%thead
+		%tr
+			%th Titulo
+			%th Calificacion
+			%th Fecha Estreno
+			%th Mas informacion
+	%tbody
+		- @peliculas.each do |pelicula|
+			%tr
+				%td= pelicula.titulo
+				%td= pelicula.calificacion
+				%td= pelicula.fecha_estreno
+				%td= link_to "Mas sobre #{pelicula.titulo}", pelicula_path(pelicula)
+= link_to 'Agregar nueva_película', new_pelicula_path
+
+		
+
+
